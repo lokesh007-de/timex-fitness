@@ -16,7 +16,12 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  allowedDevOrigins: ['*'],
+  allowedDevOrigins: [
+    "*.e2b.app",
+    "*.e2b.dev",
+    "*.localhost",
+    "localhost",
+  ],
   typescript: {
     ignoreBuildErrors: true,
   },
